@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Honey </title>
+    <style>
+        body {
+            width: 90%;
+            margin-left: 70px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 18px;
+            color: #65250d;
+        }
+
+        nav {
+            height: 150px;
+            margin-top: 30px;
+            padding-left: 20px;
+            padding-right: 20px;
+            background-color: #fef7e2;
+            border-radius: 25em;
+            display: flex;
+            align-items: center;
+            gap: 20px;
+
+        }
+
+        nav img {
+            width: 70px;
+            height: 50px;
+        }
+
+        nav span {
+            background-color: #ffdf7e;
+            height: 60px;
+            border-radius: 25em;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-grow: 1;
+        }
+
+        nav span:nth-of-type(3) {
+            display: flex;
+            justify-content: space-evenly;
+            flex-grow: 2;
+            font-weight: bold;
+            font-size: 40px;
+            height: 90px;
+        }
+
+        a {
+            text-decoration: none;
+            color: #65250d;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        article {
+            display: flex;
+            flex-wrap: wrap-reverse;
+            justify-content: space-around;
+            background-color: #fef7e2;
+            min-height: 500px;
+            --imagewidth: 580px;
+            margin-top: 40px;
+            border-radius: 20px;
+        }
+
+        article img {
+            width: var(--imagewidth);
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        article div {
+            width: var(--imagewidth);
+            flex-basis: 50%;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <span> Our Honey </span>
+        <span> Trace Honey</span>
+        <span> <img src="/assets/logo.png"> <a href="Card-honey.html">SHOP </a></span>
+        <span> Facilities </span>
+        <span> Contacts </span>
+    </nav>
+    <article>
+        <img src="/assets/honey.jpg">
+        <div>
+            <h1> Our delicious honey </h1>
+            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vel turpis ut sem gravida egestas. Duis
+                ultricies lorem sed quam condimentum porttitor. Vivamus a gravida elit. Maecenas tempor non tellus
+                varius vulputate.Cras sed lorem elit. Mauris auctor, massa nec facilisis tempor, quam lorem porttitor
+                neque, id tincidunt nunc risus vel nulla.Nam vulputate tristique velit sed porta. Pellentesque mi nunc,
+                consequat vitae lacus dictum, elementum volutpat mi. Phasellus dapibus, augue ac pellentesque rhoncus,
+                erat erat dapibus elit, nec convallis massa enim sed lectus.Nullam fermentum eu felis non laoreet. Fusce
+                non nisl cursus est condimentum vestibulum. In hac habitasse platea dictumst. Nam aliquam, sapien et
+                egestas venenatis, nibh turpis congue nulla, at posuere leo felis at lectus.
+                Mauris vehicula purus vitae porttitor ultrices. Suspendisse felis ex, consectetur vel ligula a, pulvinar
+                iaculis erat. </p>
+        </div>
+    </article>
+</body>
+
+</html>
